@@ -1,0 +1,117 @@
+/* Normal desktop :1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px */
+
+@media (max-width: 1199px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nxt_arrow {
+        right: -20px;
+    }
+
+    .pre_arrow {
+        left: -20px;
+    }
+
+    .main-menu ul li:not(:first-child) {
+        margin-left: 30px;
+    }
+
+}
+
+/* Tablet desktop :768px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler i {
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 10px 0;
+    }
+
+    /*========Banner Section==========*/
+    .banner_img {
+        height: 400px;
+    }
+
+
+    /*=========Price Section=========*/
+
+    /*
+    #price_section .mt-80 {
+        margin-top: 40px;
+    }
+*/
+	.nav-area {
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+}
+.logo a {
+	position: absolute;
+	margin-top: 2px;
+	color: #fff;
+	font-size: 20px;
+}
+.header-button-list {
+	margin-top: 32px;
+	margin-left: 70px;
+	position: absolute;
+}
+}
+
+    /* Large Mobile :480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+    /* small mobile :320px */
+
+    @media (max-width: 767px) {
+        .navbar-toggler i {
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            padding: 10px 0;
+        }
+
+        /*========Banner Section==========*/
+        .banner_img {
+            height: 400px;
+        }
+
+        /*=========Price Section=========*/
+
+        /*
+        #price_section .mt-80 {
+            margin-top: 40px !important;
+        }
+*/
+	.nav-area {
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+}
+.logo a {
+	position: absolute;
+	margin-top: 2px;
+	color: #fff;
+	font-size: 20px;
+}
+.header-button-list {
+	margin-top: 32px;
+	margin-left: 70px;
+	position: absolute;
+}
+
+    }
